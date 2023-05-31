@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.container {
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(32, 32, 43);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.block_info {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    width: fit-content;
+}
+
+.block_info>* {
+    padding: 15px;
+    margin-bottom: 5px;
+    font-family: var(--regular);
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+input:hover {
+    outline: auto;
+}
+
+input {
+    /* margin-top: 35px; */
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    width: fit-content;
+    text-align: center;
+}
+
+picture {
+    width: 60%;
+}

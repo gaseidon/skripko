@@ -1,0 +1,19 @@
+body>* {
+    font-family: var(--regular);
+    font-size: large;
+    color: #FFF;
+}
+
+body {
+    background-color: rgb(49, 49, 66);
+}
+
+body>div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.map {
+    margin-top: 30px;
+}

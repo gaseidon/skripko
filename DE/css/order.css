@@ -1,0 +1,69 @@
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    margin-top: 25px;
+}
+
+.filtration {
+    width: 100%;
+    background-color: rgb(40, 40, 54);
+    padding: 25px;
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.filtration a {
+    margin-right: 15px;
+}
+
+.order_block {
+    color: #FFF;
+    background-color: rgb(67, 67, 90);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+form>input {
+    width: 100%;
+}
+
+form>input:hover {
+    outline: auto;
+}
+
+form input {
+    font-size: larger;
+    color: white;
+}
+
+.order_status {
+    font-size: 2em;
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.hide {
+    display: none;
+}

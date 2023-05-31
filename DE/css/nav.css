@@ -1,0 +1,87 @@
+* {
+    font-size: large;
+}
+
+body {
+    background-color: rgb(49, 49, 66);
+}
+
+nav * {
+    font-family: var(--regular);
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+nav {
+    background-color: rgb(34, 34, 46);
+}
+
+ul {
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(139, 139, 238);
+    transition: 0.5s;
+}
+
+.admin>ul {
+    display: none;
+}
+
+.show {
+    display: flex !important;
+    flex-flow: column nowrap;
+    position: absolute;
+    width: fit-content;
+    background-color: rgb(40, 40, 65);
+}
+
+.admin {
+    position: relative;
+    display: inline-block;
+}
+
+.admin:hover {
+    text-decoration: underline;
+    color: rgb(139, 139, 238);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.admin>ul>li:hover {
+    text-decoration: underline;
+    color: rgb(139, 139, 238);
+    transition: 0.5s;
+}
+
+.admin>ul>li {
+    /* background-color: rgb(48, 48, 65); */
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+}
+
+select {
+    cursor: pointer;
+}

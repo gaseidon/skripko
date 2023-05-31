@@ -1,0 +1,56 @@
+:root {
+    --bold: MuktaBold;
+    --extraBold: MuktaExtraBold;
+    --extraLight: MuktaExtraLight;
+    --light: MuktaLight;
+    --medium: MuktaMedium;
+    --regular: MuktaRegular;
+    --semiBold: MuktaSemiBold;
+    --aegean: aegean;
+    --fallingSky: fallingSky;
+}
+
+@font-face {
+    font-family: MuktaBold;
+    src: url(/font/EkMuktaBold-Kw7e.ttf);
+}
+
+@font-face {
+    font-family: MuktaExtraBold;
+    src: url(/font/EkMuktaExtrabold-2YOX.ttf);
+}
+
+@font-face {
+    font-family: MuktaExtraLight;
+    src: url(/font/EkMuktaExtralight-vOmL.ttf);
+}
+
+@font-face {
+    font-family: MuktaLight;
+    src: url(/font/EkMuktaLight-wO19.ttf);
+}
+
+@font-face {
+    font-family: MuktaMedium;
+    src: url(/font/EkMuktaMedium-7vBD.ttf);
+}
+
+@font-face {
+    font-family: MuktaRegular;
+    src: url(/font/EkMuktaRegular-mOLv.ttf);
+}
+
+@font-face {
+    font-family: MuktaSemiBold;
+    src: url(/font/EkMuktaSemibold-dV97.ttf);
+}
+
+@font-face {
+    font-family: aegean;
+    src: url(/font/Aegean-8jJ2.ttf);
+}
+
+@font-face {
+    font-family: fallingSky;
+    src: url(/font/FallingSky-JKwK.otf);
+}

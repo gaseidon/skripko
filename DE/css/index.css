@@ -1,0 +1,21 @@
+body * {
+    font-family: var(--regular);
+    color: #fff;
+    font-size: large;
+}
+
+body {
+    background-color: rgb(49, 49, 66);
+}
+
+.container_top {
+    display: flex;
+    flex-flow: row nowrap;
+    height: fit-content;
+    width: 60%;
+    margin: 25px auto 100px auto;
+}
+
+.slogan {
+    text-align: justify;
+}

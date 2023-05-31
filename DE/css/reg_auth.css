@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(34, 34, 46);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+form {
+    margin-top: 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 20%;
+    max-width: 50%;
+    height: fit-content;
+    padding: 15px;
+    background-color: rgb(47, 47, 63);
+    align-items: center;
+    border-radius: 15px;
+}
+
+form>span {
+    margin-bottom: 15px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+form>input {
+    width: 100%;
+}
+
+form>.input:hover {
+    outline: auto;
+}
+
+form input,
+form span {
+    font-size: medium;
+    color: white;
+}
+
+.form_el {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.form_el span {
+    margin-right: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.btn {
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(139, 139, 238);
+    transition: 0.5s;
+}
+
+#name,
+#surname,
+#patronymic,
+#login,
+#pas,
+#pas_rep,
+#login_taken,
+#alert {
+    display: none;
+}
+
+.alert {
+    display: block !important;
+    color: red;
+    border: red solid 1px;
+}

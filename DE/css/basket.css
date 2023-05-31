@@ -1,0 +1,79 @@
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main input {
+    cursor: pointer;
+    background-color: rgb(40, 40, 65);
+    border: none;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main input:hover {
+    outline: auto;
+}
+
+main input,
+main div {
+    font-size: medium;
+    color: white;
+}
+
+.container {
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: rgb(25, 25, 41);
+    width: 60%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.prods {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 50px;
+}
+
+.prods * {
+    margin-right: 15px;
+}
+
+.plus,
+.minus {
+    cursor: pointer;
+}
+
+.name,
+.count {
+    cursor: default;
+}
+
+::placeholder {
+    color: #FFF;
+    text-align: center;
+}
+
+.password {
+    background-color: transparent;
+    text-align: center;
+    border: #FFF solid 1px;
+}
+
+.form_pas {
+    display: none;
+}
+
+.form_pas_active {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.alert {
+    display: block !important;
+    color: red;
+    border: red solid 1px;
+}
